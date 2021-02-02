@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap");
+
+*{
+    font-family:'Roboto', sans-serif;  
+    font-weight: 700;
+}
+
+.container{
+    font-family:'Roboto', sans-serif;  
+    font-size: 2em;
+    background-color: rgb(148, 200, 148);
+    color: white; 
+    text-align: center;
+    border-radius: 2em;
+    margin-top: auto;
+    padding: 2em;
+}
+
+.welcome {
+    font-family: "Impact", fantasy;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: grey ;
+    text-align: center;
+    border-radius: 2em;
+    margin-top: auto;
+    padding: 1em;
+}
+
+
+button {
+    font-family:'Roboto', sans-serif;
+    border: 2px rgba(43, 8, 66, 0.842);
+    border-radius: 4px;
+    background-color:white;
+    opacity: 1;
+    color: rgb(76, 104, 76);
+    font-size: 14px;
+    padding: 2px;
+  }
+
+.game {
+    font-family: "Marker Felt", fantasy	;
+    font-size: 7rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+  }
+  .gametable {
+    font-family: "Marker Felt", fantasy	;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+    padding: 0.5rem;
+    margin: 5rem;
+    border-style: outset;
+    table-layout: fixed;
+  }
+  .row-element {
+    font-family: "Marker Felt", fantasy	;
+    border-top: none;
+    margin: 1rem;
+    height: 10rem;
+  }
+  .element {
+    font-family: "Marker Felt", fantasy	;
+    color: white;
+    margin: 1rem;
+    background-color:grey;
+    padding: 1rem;
+    border: 1px solid white;
+    border-style: solid;
+    width: 10rem;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
