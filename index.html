@@ -11,40 +11,33 @@
                     <h1>Morpion</h1>
                     <p>Welcome to the game ! </p>
                     <br/>
-                    <form class = "form"> 
-                        <label for = "player1">Player X</label>
-                        <input type="text" name="player1" id="player1" placeholder="Your name" >
+                    <div class = "form"> 
+                        <div id="Player_1_form">
 
-                        <br />
+                            <label for = "player1">Player X</label>
+                            <input id="Player_1_name" type="text" placeholder="Your name" >
+                            <button id ="enter">Enter</button>
 
-                        <label for="player2">Player O</label>
-                        <input type="text" name="player2" id="player2" placeholder="Your name" />
+                        </div>
+
+                        <p id ="Player_1_info"></p>
+                        
+                        <div id="Player_2_form">
+
+                            <label for="player2">Player O</label>
+                            <input id="Player_2_name" type="text"  placeholder="Your name" />
+                            <button id ="enter_2">Enter</button>
+
+                        </div>
+
+                        <p id="Player_2_info"></p>
 
                         <br />
 
                         <button id= "button" >Let's play</button>
+                    </div>
                 </div>
-                    </form>
-                <div class="game">
-                    <table class="gametable" border="1px">
-                        <tr class="row-element">
-                          <td class="element" id="0"><span></span></td>
-                          <td class="element" id="1"><span></span></td>
-                          <td class="element" id="2"><span></span></td>
-                        </tr>
-                        <tr class="row-element">
-                          <td class="element" id="3"><span></span></td>
-                          <td class="element" id="4"><span></span></td>
-                          <td class="element" id="5"><span></span></td>
-                        </tr>
-                        <tr class="row-element">
-                          <td class="element" id="6"><span></span></td>
-                          <td class="element" id="7"><span></span></td>
-                          <td class="element" id="8"><span></span></td>
-                        </tr>
-                      </table>
-                </div>
-
+                    
                 </div>
                 <script src="script.js"></script>
             </body>
