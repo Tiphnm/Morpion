@@ -27,8 +27,7 @@
     padding: 1em;
 }
 
-
-button {
+.enter {
     font-family:'Roboto', sans-serif;
     border: 2px rgba(43, 8, 66, 0.842);
     border-radius: 4px;
@@ -36,8 +35,20 @@ button {
     opacity: 1;
     color: rgb(76, 104, 76);
     font-size: 14px;
-    padding: 2px;
+    padding: 6px;
   }
+
+.Play_button{
+    font-family:'Roboto', sans-serif;
+    border: 2px rgba(43, 8, 66, 0.842);
+    border-radius: 6px;
+    background-color:rgb(235, 96, 96);
+    opacity: 1;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+
+}
 
 .game {
     font-family: "Marker Felt", fantasy	;
